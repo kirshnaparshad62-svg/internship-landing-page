@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
       input: () => document.getElementById('phone'),
       errorEl: () => document.getElementById('phoneError'),
       validate: (value) => PHONE_PATTERN.test(value.trim()),
-      message: 'Please enter a valid phone number (7-15 digits).'
+      message: 'Please enter a valid phone number (7-20 digits).'
     },
     message: {
       input: () => document.getElementById('message'),
